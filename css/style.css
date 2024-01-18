@@ -128,9 +128,75 @@ main .section-grey{
     background-color: #F0C1CA;
     width: 28%;
     height: 500px;
+    
+}
+
+.big-img.section-grey{
+    height: 900px;
+}
+
+.big-img.section-grey .green-box{
+    background-color: #228B22;
+    width: 68%;
+    height: 800px;
+    border: 2px dashed black;
+}
+
+/* /MAIN */
+
+/* FOOTER */
+
+
+
+/* /FOOTER */
+
+footer{
+    background-color: #292B2E;
+    color: white;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.footer-top .div-footer{
+    border: 2px solid red;
+    display: flex;
+    width: 68%;
     border: 2px dashed black;
 
 }
 
-
-/* /MAIN */
+.footer-top .div-footer #f1{
+    background-color: #D88582;
+    width: 30%;
+    height: 500px;
+    border: 2px dashed black;
+}
+.footer-top .div-footer #f2{
+    background-color: #65AEA8;
+    width: 20%;
+    height: 500px;
+    border: 2px dashed white;
+}
+.footer-top .div-footer #f3{
+    background-color: #65AEA8;
+    width: 20%;
+    height: 500px;
+    border: 2px dashed white;
+}
+.footer-top .div-footer #f4{
+    background-color: #65AEA8;
+    width: 20%;
+    height: 500px;
+    border: 2px dashed white;
+}
+.footer-top .div-footer #f5{
+    background-color: #65AEA8;
+    width: 20%;
+    height: 500px;
+    border: 2px dashed white;
+}
