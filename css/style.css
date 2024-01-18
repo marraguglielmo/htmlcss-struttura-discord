@@ -160,9 +160,16 @@ footer{
     justify-content: center;
     align-items: center;
     height: 650px;
+    border-bottom: 2px solid white;
 }
 
-.footer-top .div-footer{
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer-top */
+.footer-top .div-footer-top{
     border: 2px solid red;
     display: flex;
     width: 68%;
@@ -170,33 +177,50 @@ footer{
 
 }
 
-.footer-top .div-footer #f1{
+.footer-top .div-footer-top #f1{
     background-color: #D88582;
     width: 30%;
     height: 500px;
     border: 2px dashed black;
 }
-.footer-top .div-footer #f2{
+.footer-top .div-footer-top #f2{
     background-color: #65AEA8;
     width: 20%;
     height: 500px;
     border: 2px dashed white;
 }
-.footer-top .div-footer #f3{
+.footer-top .div-footer-top #f3{
     background-color: #65AEA8;
     width: 20%;
     height: 500px;
     border: 2px dashed white;
 }
-.footer-top .div-footer #f4{
+.footer-top .div-footer-top #f4{
     background-color: #65AEA8;
     width: 20%;
     height: 500px;
     border: 2px dashed white;
 }
-.footer-top .div-footer #f5{
+.footer-top .div-footer-top #f5{
     background-color: #65AEA8;
     width: 20%;
     height: 500px;
     border: 2px dashed white;
+}
+
+/* footer-bottom */
+.footer-bottom .div-footer-bot{
+    background-color: #7FFFD4;
+    width: 68%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.footer-bottom .div-footer-bot .text-footer{
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    color: black;
+    padding: 5px;
 }
