@@ -14,6 +14,13 @@ header{
     font-size: 1.2em;
 }
 
+.container{
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* HEADER */
 header #box-header{
     background-color: #CBA544;
@@ -74,7 +81,11 @@ header nav ul li a{
     width: 50%;
     height: 450px;
     border: 2px dashed black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /* /HERO AREA */
@@ -96,7 +107,11 @@ main .section-grey{
     width: 40%;
     height: 500px;
     border: 2px dashed black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .section-white .small-box{
@@ -104,7 +119,11 @@ main .section-grey{
     width: 28%;
     height: 500px;
     border: 2px dashed black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 /* BOX SECTION GREY */
 .section-grey .big-box{
@@ -112,14 +131,22 @@ main .section-grey{
     width: 40%;
     height: 500px;
     border: 2px dashed black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .section-grey .small-box{
     background-color: #F0C1CA;
     width: 28%;
     height: 500px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .big-img.section-grey{
@@ -131,6 +158,11 @@ main .section-grey{
     width: 68%;
     height: 800px;
     border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /* /MAIN */
@@ -192,6 +224,14 @@ footer{
     border: 2px dashed white;
 }
 
+.footer-top .div-footer-top .f-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
 /* footer-bottom */
 .footer-bottom .div-footer-bot{
     background-color: #7FFFD4;
@@ -209,9 +249,3 @@ footer{
     padding: 5px;
 }
 
-.container{
-    max-width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
