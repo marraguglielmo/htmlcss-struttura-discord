@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #B9D6E3;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/* HEADER */
+#box-header{
+    background-color: #CBA544;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* LOGO */
+.logo{
+    border: 2px dashed black;
+    width: 20%;
+    padding: 5px;
+}
+
+/* MENU */
+nav{
+    border: 2px dashed black;
+    width: 60%;
+    padding: 5px;
+}
+
+/* LOGIN */
+.login{
+    border: 2px dashed black;
+    width: 20%;
+    padding: 5px;
+    text-align: right;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
