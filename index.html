@@ -8,101 +8,92 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
-    <title>Struttura Discord</title>
+    <title>Struttura Discord 2.0</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <!-- BOX ARANCIONE HEADER -->
-        <div id="box-header">
-            <!-- logo -->
-            <div class="logo">logo</div>
-            
-            <!-- menù -->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">link</a>
-                    </li>
-                    <li>
-                        <a href="#">link</a>
-                    </li>
-                    <li>
-                        <a href="#">link</a>
-                    </li>
-                    <li>
-                        <a href="#">link</a>
-                    </li>
-                    <li>
-                        <a href="#">link</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- login -->
-            <div class="login">login</div>
-            
-        </div>
+        <section class="container">
+            <div class="div-header">
+                <div class="border">logo</div>
+                <nav class="border">
+                    <ul>
+                        <li>
+                            <a href="#">link</a>
+                        </li>
+                        <li>
+                            <a href="#">link</a>
+                        </li>
+                        <li>
+                            <a href="#">link</a>
+                        </li>
+                        <li>
+                            <a href="#">link</a>
+                        </li>
+                        <li>
+                            <a href="#">link</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="login" class="border">login</div>
+            </div>
+        </section>
     </header>
-    <!-- /BOX ARANCIONE HEADER -->
     <!-- /HEADER -->
-
+    
     <!-- HERO AREA -->
-    <section class="hero-area container">
-        <!-- BOX HERO -->
-        <div class="box-hero">IMG</div>
+    <section class="container hero-area">
+        <div class="hero-box border text">IMG</div>
     </section>
-    <!-- /HERO AREA -->
 
     <!-- MAIN -->
     <main>
-        <!-- SEZIONE BLOCCHI -->TEXT
-        <section class="section-white container">
-            <!-- blocco grande -->
-            <div class="big-box">IMG</div>
-            <!-- blocco piccolo -->
-            <div class="small-box">TEXT</div>
-        </section>
-        <section class="section-grey container">
-            <!-- blocco grande -->
-            <div class="small-box">TEXT</div>
-            <!-- blocco piccolo -->
-            <div class="big-box">IMG</div>
-        </section>
-        <section class="section-white container">
-            <!-- blocco grande -->
-            <div class="big-box">IMG</div>
-            <!-- blocco piccolo -->
-            <div class="small-box">TEXT</div>
+        <!-- SECTION WHITE -->
+        <section class="m1 container text">
+            <div class="big-box border text">IMG</div>
+            <div class="small-box border text">TEXT</div>
         </section>
 
-        <section class="big-img section-grey container">
-            <div class="green-box">IMG</div>
+        <!-- SECTION GREY -->
+        <section class="m2 bg-grey container text">
+            <div class="small-box border text">TEXT</div>
+            <div class="big-box border text">IMG</div>
+        </section>
+        <!-- SECTION WHITE -->
+        <section class="m1 container text">
+            <div class="big-box border text">IMG</div>
+            <div class="small-box border text">TEXT</div>
+        </section>
+
+        <!-- SECTION GREEN -->
+        <section class="big-section bg-grey container">
+            <div class="big-img border text">IMG</div>
         </section>
     </main>
     <!-- /MAIN -->
 
     <!-- FOOTER -->
     <footer>
+        <!-- FOOTER TOP -->
         <section class="footer-top container">
-            <div class="div-footer-top">
-                <div id="f1" class="f-text">TEXT</div>
-                <div id="f2" class="f-text">TEXT</div>
-                <div id="f3" class="f-text">TEXT</div>
-                <div id="f4" class="f-text">TEXT</div>
-                <div id="f5" class="f-text">TEXT</div>
+            <div class="div-footer-top border">
+                <div class="big-div border text">TEXT</div>
+                <div class="small-div border text">TEXT</div>
+                <div class="small-div border text">TEXT</div>
+                <div class="small-div border text">TEXT</div>
+                <div class="small-div border text">TEXT</div>
             </div>
+            
+            <!-- FOOTER BOTTOM -->
         </section>
         <section class="footer-bottom container">
             <div class="div-footer-bot">
-                <div class="text-footer">Logo</div>
-                <div class="text-footer">Bottone</div>
+                <div class="text-footer border">Logo</div>
+                <div class="text-footer border">Bottone</div>
             </div>
         </section>
     </footer>
     <!-- /FOOTER -->
-    
 </body>
 </html>
