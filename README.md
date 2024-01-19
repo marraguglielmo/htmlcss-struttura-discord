@@ -1,5 +1,4 @@
-# Struttura Pagina Discord
+# Pagina Discord
 
-Riproduzione di un vero sito: Discord
-Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati senza inserire i veri testi, img etc. o pensare al dettaglio.
-Partiamo sempre dall’individuare il layout generale e poi iniziamo dall’alto verso il basso, non passiamo ad una sezione successiva se la precedente non funziona.
+Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
+Partiamo dai blocchi colorati e solo quando tutto funziona passiamo al dettaglio, sezione per sezione.
