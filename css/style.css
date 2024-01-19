@@ -9,8 +9,24 @@ body{
 }
 
 header{
-    background-color: #B9D6E3;
+    background-color: #255EE9;
     padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 2.7rem;
+}
+
+h2{
+    font-size: 3.2rem;
+    line-height: 60px;
 }
 
 .container{
@@ -24,13 +40,45 @@ header{
     border: 2px dashed black;
 }
 
-.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    color: white;
+.button{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 8px 22px;
 }
+
+/* BOTTONI */
+.btn-white{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.btn-white:hover{
+    cursor: pointer;
+    color: #4E62D6;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-black{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: 1rem;
+}
+
+.btn-black:hover{
+    cursor: pointer;
+    color: #4E62D6;
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-purple{
+    background-color: white;
+    color: white;
+    font-size: 1rem;
+}
+
 
 .bg-grey{
     background-color: #D2D2D2;
@@ -39,10 +87,18 @@ header{
 
 /* HEADER */
 header .div-header{
-    background-color: #CBA544;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 85%;
+}
+
+header .div-header img{
+    width: 60%;
+}
+
+header .div-header img:hover{
+    cursor: pointer;
 }
 
 header .div-header div{
@@ -51,6 +107,7 @@ header .div-header div{
 }
 
 header .div-header #login{
+    color: black;
     text-align: right;
 }
 
@@ -68,21 +125,64 @@ header .div-header ul{
 
 header .div-header ul li a{
     text-decoration: none;
-    color: black;
-    margin: 0 5px;
+    color: white;
+    margin: 0 20px;
 }
+
+header .div-header ul li a:hover{
+    text-decoration: underline;
+}
+
 
 /* HERO AREA */
 .hero-area{
-    background-color: #1C1084;
-    height: 500px;
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-area .hero-box{
-    background-color: #D988E7;
+    background-color: transparent;
     width: 50%;
     height: 400px;
+    padding: 10px;
 }
+
+.hero-area .hero-box .hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hero-area .hero-box .hero-btn button{
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-area .hero-box p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero-area .hero-box #btn-download{
+    font-weight: bold;
+}
+
+.hero-area .hero-box #btn-app{
+    font-weight: bold;
+    padding: 10.4px 22px;
+}
+
+.hero-area .hero-box #btn-download::before{
+    content: '\2193';
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
 
 /* MAIN */
 .m1{
@@ -96,15 +196,21 @@ header .div-header ul li a{
 
 /* section1 (main1) */
 .big-box{
-    background-color: #5C8EF6;
+    background-color: transparent;
     width: 43%;
-    height: 500px;
+    margin-right: 50px;
+    margin-bottom: 80px;
 }
 
+
 .small-box{
-    background-color: #F0C1CA;
+    background-color: transparent;
     width: 27%;
-    height: 500px;
+}
+
+.small-box p{
+    font-size: 1.2rem;
+    margin-top: 20px;
 }
 
 /* section green */
